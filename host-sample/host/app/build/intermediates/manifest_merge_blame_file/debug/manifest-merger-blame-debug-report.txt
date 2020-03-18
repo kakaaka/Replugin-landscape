@@ -1,0 +1,462 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2005-2017 Qihoo 360 Inc.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not
+6  ~ use this file except in compliance with the License. You may obtain a copy of
+7  ~ the License at
+8  ~
+9  ~ http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed To in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+13  ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+14  ~ License for the specific language governing permissions and limitations under
+15  ~ the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.qihoo360.replugin.sample.host"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="14"
+23-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml
+25
+26    <!-- ======= REPLUGIN ======= -->
+27    <!-- SDK Only (4Stats)。也是“常用的”几个权限 -->
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:22:5-67
+28-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:22:22-64
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:23:5-76
+29-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:23:22-73
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:24:5-79
+30-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:24:22-76
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:25:5-81
+31-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:25:22-78
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:26:5-75
+32-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:26:22-72
+33
+34    <!-- ======================== -->
+35    <application
+35-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:29:5-58:19
+36        android:name="com.qihoo360.replugin.sample.host.SampleApplication"
+36-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:30:9-42
+37        android:allowBackup="false"
+37-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:31:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/c4d4fcd1de6fe2bf9d879ce7f700ef74/core-1.1.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:32:9-43
+41        android:label="@string/app_name"
+41-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:33:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:34:9-54
+43        android:supportsRtl="true"
+43-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:35:9-35
+44        android:theme="@style/AppTheme" >
+44-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:36:9-40
+45        <activity
+45-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:37:9-44:20
+46            android:name="com.qihoo360.replugin.sample.host.MainActivity"
+46-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:37:19-47
+47            android:theme="@style/Base.Theme.AppCompat" >
+47-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:38:13-56
+48            <intent-filter>
+48-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:39:13-43:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:40:17-69
+49-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:40:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:42:17-77
+51-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:42:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.qihoo360.replugin.sample.host.PluginFragmentActivity" />
+54-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:46:9-60
+54-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:46:19-57
+55
+56        <provider
+56-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:48:9-57:20
+57            android:name="com.qihoo360.replugin.sample.host.FileProvider"
+57-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:49:13-41
+58            android:authorities="com.qihoo360.replugin.sample.host.FILE_PROVIDER"
+58-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:50:13-82
+59            android:exported="false"
+59-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:51:13-37
+60            android:grantUriPermissions="true" >
+60-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:52:13-47
+61            <meta-data
+61-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:53:13-56:25
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:54:17-67
+63                android:resource="@xml/fileprovider_path" >
+63-->/Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/app/src/main/AndroidManifest.xml:55:17-58
+64            </meta-data>
+65        </provider>
+66        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+67        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+68        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+69        <!-- ======================================================================== -->
+70        <!-- 开始：插件stub -->
+71        <!-- Activity坑中的screenSize属性 7.3.0以上才支持 -->
+72        <provider
+72-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:37:9-40:40
+73            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderUI"
+73-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:38:13-88
+74            android:authorities="com.qihoo360.replugin.sample.host.loader.p.mainN1"
+74-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:39:13-67
+75            android:exported="false" />
+75-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:40:13-37
+76        <provider
+76-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:41:9-44:40
+77            android:name="com.qihoo360.replugin.sample.host.loader.p.ProviderN1"
+77-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:42:13-64
+78            android:authorities="com.qihoo360.replugin.sample.host.loader.p.prN1"
+78-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:43:13-65
+79            android:exported="false" />
+79-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:44:13-37
+80
+81        <service
+81-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:46:9-48:40
+82            android:name="com.qihoo360.replugin.sample.host.loader.s.ServiceN1"
+82-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:47:13-63
+83            android:exported="false" />
+83-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:48:13-37
+84
+85        <provider
+85-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:50:9-54:42
+86            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader0"
+86-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:51:13-93
+87            android:authorities="com.qihoo360.replugin.sample.host.loader.p.main0"
+87-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:52:13-66
+88            android:exported="false"
+88-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:53:13-37
+89            android:process=":loader0" />
+89-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:54:13-39
+90        <provider
+90-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:55:9-59:42
+91            android:name="com.qihoo360.replugin.sample.host.loader.p.Provider0"
+91-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:56:13-63
+92            android:authorities="com.qihoo360.replugin.sample.host.loader.p.pr0"
+92-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:57:13-64
+93            android:exported="false"
+93-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:58:13-37
+94            android:process=":loader0" />
+94-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:59:13-39
+95
+96        <service
+96-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:61:9-64:42
+97            android:name="com.qihoo360.replugin.sample.host.loader.s.Service0"
+97-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:62:13-62
+98            android:exported="false"
+98-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:63:13-37
+99            android:process=":loader0" />
+99-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:64:13-39
+100
+101        <activity
+101-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:66:9-74:63
+102            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_singleTask1"
+102-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:67:13-75
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+103-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:68:13-83
+104            android:exported="false"
+104-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:69:13-37
+105            android:launchMode="singleTask"
+105-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:70:13-44
+106            android:process=":loader0"
+106-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:71:13-39
+107            android:screenOrientation="portrait"
+107-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:72:13-49
+108            android:taskAffinity=":loader0"
+108-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:73:13-44
+109            android:theme="@android:style/Theme.NoTitleBar" />
+109-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:74:13-60
+110        <activity
+110-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:75:9-82:63
+111            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_singleInstance1"
+111-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:76:13-79
+112            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+112-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:77:13-83
+113            android:exported="false"
+113-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:78:13-37
+114            android:launchMode="singleInstance"
+114-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:79:13-48
+115            android:process=":loader0"
+115-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:80:13-39
+116            android:screenOrientation="portrait"
+116-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:81:13-49
+117            android:theme="@android:style/Theme.NoTitleBar" />
+117-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:82:13-60
+118        <activity
+118-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:83:9-89:63
+119            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_task"
+119-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:84:13-68
+120            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+120-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:85:13-83
+121            android:exported="false"
+121-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:86:13-37
+122            android:process=":loader0"
+122-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:87:13-39
+123            android:screenOrientation="portrait"
+123-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:88:13-49
+124            android:theme="@android:style/Theme.NoTitleBar" />
+124-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:89:13-60
+125        <activity
+125-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:90:9-96:74
+126            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_fullscreen"
+126-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:91:13-74
+127            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+127-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:92:13-83
+128            android:exported="false"
+128-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:93:13-37
+129            android:process=":loader0"
+129-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:94:13-39
+130            android:screenOrientation="portrait"
+130-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:95:13-49
+131            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+131-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:96:13-71
+132        <activity
+132-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:97:9-103:75
+133            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_translucent"
+133-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:98:13-75
+134            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+134-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:99:13-83
+135            android:exported="false"
+135-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:100:13-37
+136            android:process=":loader0"
+136-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:101:13-39
+137            android:screenOrientation="portrait"
+137-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:102:13-49
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:103:13-72
+139        <activity
+139-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:104:9-110:86
+140            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_translucent_fullscreen"
+140-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:105:13-86
+141            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+141-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:106:13-83
+142            android:exported="false"
+142-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:107:13-37
+143            android:process=":loader0"
+143-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:108:13-39
+144            android:screenOrientation="portrait"
+144-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:109:13-49
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+145-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:110:13-83
+146        <activity
+146-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:111:9-117:59
+147            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0_dialog"
+147-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:112:13-70
+148            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+148-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:113:13-83
+149            android:exported="false"
+149-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:114:13-37
+150            android:process=":loader0"
+150-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:115:13-39
+151            android:screenOrientation="portrait"
+151-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:116:13-49
+152            android:theme="@android:style/Theme.Dialog" />
+152-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:117:13-56
+153        <activity
+153-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:118:9-125:63
+154            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity0"
+154-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:119:13-63
+155            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+155-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:120:13-83
+156            android:exported="false"
+156-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:121:13-37
+157            android:process=":loader0"
+157-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:122:13-39
+158            android:screenOrientation="portrait"
+158-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:123:13-49
+159            android:taskAffinity=":loader0"
+159-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:124:13-44
+160            android:theme="@android:style/Theme.NoTitleBar" />
+160-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:125:13-60
+161
+162        <provider
+162-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:127:9-131:42
+163            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader1"
+163-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:128:13-93
+164            android:authorities="com.qihoo360.replugin.sample.host.loader.p.main1"
+164-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:129:13-66
+165            android:exported="false"
+165-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:130:13-37
+166            android:process=":loader1" />
+166-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:131:13-39
+167        <provider
+167-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:132:9-136:42
+168            android:name="com.qihoo360.replugin.sample.host.loader.p.Provider1"
+168-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:133:13-63
+169            android:authorities="com.qihoo360.replugin.sample.host.loader.p.pr1"
+169-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:134:13-64
+170            android:exported="false"
+170-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:135:13-37
+171            android:process=":loader1" />
+171-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:136:13-39
+172
+173        <service
+173-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:138:9-141:42
+174            android:name="com.qihoo360.replugin.sample.host.loader.s.Service1"
+174-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:139:13-62
+175            android:exported="false"
+175-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:140:13-37
+176            android:process=":loader1" />
+176-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:141:13-39
+177
+178        <activity
+178-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:143:9-151:63
+179            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_singleTask1"
+179-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:144:13-75
+180            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+180-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:145:13-83
+181            android:exported="false"
+181-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:146:13-37
+182            android:launchMode="singleTask"
+182-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:147:13-44
+183            android:process=":loader1"
+183-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:148:13-39
+184            android:screenOrientation="portrait"
+184-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:149:13-49
+185            android:taskAffinity=":loader1"
+185-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:150:13-44
+186            android:theme="@android:style/Theme.NoTitleBar" />
+186-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:151:13-60
+187        <activity
+187-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:152:9-159:63
+188            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_singleInstance1"
+188-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:153:13-79
+189            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+189-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:154:13-83
+190            android:exported="false"
+190-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:155:13-37
+191            android:launchMode="singleInstance"
+191-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:156:13-48
+192            android:process=":loader1"
+192-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:157:13-39
+193            android:screenOrientation="portrait"
+193-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:158:13-49
+194            android:theme="@android:style/Theme.NoTitleBar" />
+194-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:159:13-60
+195        <activity
+195-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:160:9-166:63
+196            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_task"
+196-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:161:13-68
+197            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+197-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:162:13-83
+198            android:exported="false"
+198-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:163:13-37
+199            android:process=":loader1"
+199-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:164:13-39
+200            android:screenOrientation="portrait"
+200-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:165:13-49
+201            android:theme="@android:style/Theme.NoTitleBar" />
+201-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:166:13-60
+202        <activity
+202-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:167:9-173:74
+203            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_fullscreen"
+203-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:168:13-74
+204            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+204-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:169:13-83
+205            android:exported="false"
+205-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:170:13-37
+206            android:process=":loader1"
+206-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:171:13-39
+207            android:screenOrientation="portrait"
+207-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:172:13-49
+208            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+208-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:173:13-71
+209        <activity
+209-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:174:9-180:75
+210            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_translucent"
+210-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:175:13-75
+211            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+211-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:176:13-83
+212            android:exported="false"
+212-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:177:13-37
+213            android:process=":loader1"
+213-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:178:13-39
+214            android:screenOrientation="portrait"
+214-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:179:13-49
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:180:13-72
+216        <activity
+216-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:181:9-187:86
+217            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_translucent_fullscreen"
+217-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:182:13-86
+218            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+218-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:183:13-83
+219            android:exported="false"
+219-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:184:13-37
+220            android:process=":loader1"
+220-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:185:13-39
+221            android:screenOrientation="portrait"
+221-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:186:13-49
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+222-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:187:13-83
+223        <activity
+223-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:188:9-194:59
+224            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1_dialog"
+224-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:189:13-70
+225            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+225-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:190:13-83
+226            android:exported="false"
+226-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:191:13-37
+227            android:process=":loader1"
+227-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:192:13-39
+228            android:screenOrientation="portrait"
+228-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:193:13-49
+229            android:theme="@android:style/Theme.Dialog" />
+229-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:194:13-56
+230        <activity
+230-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:195:9-202:63
+231            android:name="com.qihoo360.replugin.sample.host.loader.a.Activity1"
+231-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:196:13-63
+232            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+232-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:197:13-83
+233            android:exported="false"
+233-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:198:13-37
+234            android:process=":loader1"
+234-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:199:13-39
+235            android:screenOrientation="portrait"
+235-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:200:13-49
+236            android:taskAffinity=":loader1"
+236-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:201:13-44
+237            android:theme="@android:style/Theme.NoTitleBar" />
+237-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:202:13-60
+238
+239        <provider
+239-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:204:9-207:40
+240            android:name="com.qihoo360.replugin.component.provider.PluginPitProviderUI"
+240-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:205:13-88
+241            android:authorities="com.qihoo360.replugin.sample.host.Plugin.NP.UIP"
+241-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:206:13-65
+242            android:exported="false" />
+242-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:207:13-37
+243
+244        <service android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceUI" /> <!-- 结束：插件stub -->
+244-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:209:9-101
+244-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:209:18-98
+245        <!-- ======================================================================== -->
+246        <!-- 在UI进程中安装插件。请参见类的说明 -->
+247        <provider
+247-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:216:9-220:20
+248            android:name="com.qihoo360.replugin.packages.PluginFastInstallProvider"
+248-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:217:13-84
+249            android:authorities="com.qihoo360.replugin.sample.host.loader.p.pip"
+249-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:218:13-64
+250            android:exported="false" >
+250-->[io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/AndroidManifest.xml:219:13-37
+251        </provider>
+252    </application>
+253
+254</manifest>

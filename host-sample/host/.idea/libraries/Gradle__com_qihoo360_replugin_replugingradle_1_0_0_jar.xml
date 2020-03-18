@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qihoo360.replugin:replugingradle:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../replugin_release/com/qihoo360/replugin/replugingradle/1.0.0/replugingradle-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

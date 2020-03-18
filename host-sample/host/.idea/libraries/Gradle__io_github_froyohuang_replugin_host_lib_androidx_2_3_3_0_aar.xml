@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.froyohuang:replugin-host-lib-androidx:2.3.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/545d9a931cc5747ca9214bec82a4716f/replugin-host-lib-androidx-2.3.3.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.froyohuang/replugin-host-lib-androidx/2.3.3.0/992c00cb60f228fa05cefcd991e6deaf2ca9e9df/replugin-host-lib-androidx-2.3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

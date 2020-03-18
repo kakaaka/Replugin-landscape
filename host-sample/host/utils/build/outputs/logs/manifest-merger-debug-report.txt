@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/99dde8c3b4e609edcb78036fd338943b/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f4aa8d763ef91336022d37b8536e85be/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a8a2f2d3bd1c7b2b5e9a21ad8312c32d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/4f08c9679df53bb18069fa3f501e7413/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/792951297b6a9cca92173abd742a91de/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/d9ee5708b1b0b0854a6c2a772d9a5a86/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5df2f168e1017f3da7c70a2a2c0e68e8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/1d056d1c5aa70fca52dddc37a62c27e3/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/18c114666c5f0fc6c87423985b263b4d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f8381da813623b0949a05c88ad7dc6c9/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/b4166f27c440a1464193c7e66af52999/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a9cc9422ae436e0d1b3d1a3388f4bd9a/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/42e77b097131a87f11162794a4ac032f/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/0e8a9ab9e743a0d9dc397040940aac41/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/811df066a250859777d5580347ee61d4/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/daaafa228cca3b7f1d156c21ed9ce683/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/49af91da65e796ae6575f56337798a13/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/bfee1b586266e6e560ee2db6be4c8cb3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5d18541cbfd78766954424ff051cdc04/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c482933b289d5c1da8570fbbcc00aa0/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/6b6a94723b721d2b69e886d1a35e522b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c6ddd09c74a5385e538b0cc7ed420d3/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5385c3c44c01a99913e93dae147ed102/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f2e41d00739613317746d291145d0108/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+	package
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:18:5-49
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:1-20:12
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml:19:5-19
+MERGED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/0e8a9ab9e743a0d9dc397040940aac41/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/0e8a9ab9e743a0d9dc397040940aac41/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:22:18-86
+uses-sdk
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/99dde8c3b4e609edcb78036fd338943b/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/99dde8c3b4e609edcb78036fd338943b/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f4aa8d763ef91336022d37b8536e85be/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f4aa8d763ef91336022d37b8536e85be/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a8a2f2d3bd1c7b2b5e9a21ad8312c32d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a8a2f2d3bd1c7b2b5e9a21ad8312c32d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/4f08c9679df53bb18069fa3f501e7413/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/4f08c9679df53bb18069fa3f501e7413/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/792951297b6a9cca92173abd742a91de/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/792951297b6a9cca92173abd742a91de/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/d9ee5708b1b0b0854a6c2a772d9a5a86/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/d9ee5708b1b0b0854a6c2a772d9a5a86/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5df2f168e1017f3da7c70a2a2c0e68e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5df2f168e1017f3da7c70a2a2c0e68e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/1d056d1c5aa70fca52dddc37a62c27e3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/1d056d1c5aa70fca52dddc37a62c27e3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/18c114666c5f0fc6c87423985b263b4d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/18c114666c5f0fc6c87423985b263b4d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f8381da813623b0949a05c88ad7dc6c9/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f8381da813623b0949a05c88ad7dc6c9/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/b4166f27c440a1464193c7e66af52999/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/b4166f27c440a1464193c7e66af52999/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a9cc9422ae436e0d1b3d1a3388f4bd9a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/a9cc9422ae436e0d1b3d1a3388f4bd9a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/42e77b097131a87f11162794a4ac032f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/42e77b097131a87f11162794a4ac032f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/25d3a6281293a848cc5ae8d6c9254f50/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/0e8a9ab9e743a0d9dc397040940aac41/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/0e8a9ab9e743a0d9dc397040940aac41/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/811df066a250859777d5580347ee61d4/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/811df066a250859777d5580347ee61d4/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/daaafa228cca3b7f1d156c21ed9ce683/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/daaafa228cca3b7f1d156c21ed9ce683/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/49af91da65e796ae6575f56337798a13/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/49af91da65e796ae6575f56337798a13/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/bfee1b586266e6e560ee2db6be4c8cb3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/bfee1b586266e6e560ee2db6be4c8cb3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5d18541cbfd78766954424ff051cdc04/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5d18541cbfd78766954424ff051cdc04/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c482933b289d5c1da8570fbbcc00aa0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c482933b289d5c1da8570fbbcc00aa0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/6b6a94723b721d2b69e886d1a35e522b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/6b6a94723b721d2b69e886d1a35e522b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c6ddd09c74a5385e538b0cc7ed420d3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/7c6ddd09c74a5385e538b0cc7ed420d3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5385c3c44c01a99913e93dae147ed102/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/5385c3c44c01a99913e93dae147ed102/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f2e41d00739613317746d291145d0108/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/learning/.gradle/caches/transforms-2/files-2.1/f2e41d00739613317746d291145d0108/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		ADDED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml
+		INJECTED from /Users/learning/AndroidStudioProjects/RePlugin-AndroidX-test/host-sample/host/utils/src/main/AndroidManifest.xml

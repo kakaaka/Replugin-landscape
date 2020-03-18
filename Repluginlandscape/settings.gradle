@@ -1,0 +1,2 @@
+include ':app', ':replugin_host_gradle'
+rootProject.name='Replugin-landscape'
